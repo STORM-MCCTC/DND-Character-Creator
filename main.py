@@ -66,6 +66,9 @@ def char_creation():
         char_race = "Half-Orc"
     else:
         print("Invalid race")
+        print("Restarting Character editor")
+        time.sleep(0.5)
+        print("")
         return char_creation()
     
     if char_race == "Human":
@@ -108,6 +111,10 @@ def char_creation():
             char_sub_race = "Abyssal Tiefling"
         else:
             print("Invalid Sub-Race")
+            print("Invalid Character")
+            print("Restarting Character editor")
+            time.sleep(0.5)
+            print("")
             return char_creation()
 
     if char_race == "DragonBorn":
@@ -137,6 +144,9 @@ def char_creation():
             char_sub_race = "Brass"
         else:
             print("Invalid Sub-Race")
+            print("Restarting Character editor")
+            time.sleep(0.5)
+            print("")
             return char_creation()
 
     if char_race == "Halfling":
@@ -152,6 +162,9 @@ def char_creation():
             char_sub_race = "Ghostwise Halfling"
         else:
             print("Invalid Sub-Race")
+            print("Restarting Character editor")
+            time.sleep(0.5)
+            print("")
             return char_creation()
 
     if char_race == "Half-Elf":
@@ -171,6 +184,9 @@ def char_creation():
             char_sub_race = "Deep Gnome "
         else:
             print("Invalid Sub-Race")
+            print("Restarting Character editor")
+            time.sleep(0.5)
+            print("")
             return char_creation()
 
     if char_race == "Elf":
@@ -192,6 +208,9 @@ def char_creation():
             char_sub_race = "Shadar-kai"
         else:
             print("Invalid Sub-Race")
+            print("Restarting Character editor")
+            time.sleep(0.5)
+            print("")
             return char_creation()
 
     if char_race == "Dwarf":
@@ -207,6 +226,9 @@ def char_creation():
             char_sub_race = "Duergar (Gray Dwarf)"
         else:
             print("Invalid Sub-Race")
+            print("Restarting Character editor")
+            time.sleep(0.5)
+            print("")
             return char_creation()
 
     print("")
@@ -240,6 +262,9 @@ def char_creation():
         char_class = "Artificer"
     else:
         print("Invalid Class")
+        print("Restarting Character editor")
+        time.sleep(0.5)
+        print("")
         return char_creation()
     
     if char_class == "Barbarian":
@@ -263,6 +288,9 @@ def char_creation():
             char_sub_class = "Path of Wild Magic"
         else:
             print("Invalid Sub-Class")
+            print("Restarting Character editor")
+            time.sleep(0.5)
+            print("")
             return char_creation()
 
     if char_class == "Bard":
@@ -286,6 +314,9 @@ def char_creation():
             char_sub_class = "College of Eloquence"
         else:
             print("Invalid Sub-Class")
+            print("Restarting Character editor")
+            time.sleep(0.5)
+            print("")
             return char_creation()
 
     if char_class == "Cleric":
@@ -319,6 +350,9 @@ def char_creation():
             char_sub_class = "Twilight Domain"
         else:
             print("Invalid Sub-Class")
+            print("Restarting Character editor")
+            time.sleep(0.5)
+            print("")
             return char_creation()
 
     if char_class == "Druid":
@@ -342,6 +376,9 @@ def char_creation():
             char_sub_class = "Circle of Wildfire"
         else:
             print("Invalid Sub-Class")
+            print("Restarting Character editor")
+            time.sleep(0.5)
+            print("")
             return char_creation()
 
     if char_class == "Fighter":
@@ -369,6 +406,9 @@ def char_creation():
             char_sub_class = "Rune Knight"
         else:
             print("Invalid Sub-Class")
+            print("Restarting Character editor")
+            time.sleep(0.5)
+            print("")
             return char_creation()
 
     if char_class == "Monk":
@@ -394,6 +434,9 @@ def char_creation():
             char_sub_class = "Way of the Astral Self"
         else:
             print("Invalid Sub-Class")
+            print("Restarting Character editor")
+            time.sleep(0.5)
+            print("")
             return char_creation()
 
     if char_class == "Paladin":
@@ -419,6 +462,9 @@ def char_creation():
             char_sub_class = "Oath of the Watchers"
         else:
             print("Invalid Sub-Class")
+            print("Restarting Character editor")
+            time.sleep(0.5)
+            print("")
             return char_creation()
 
     if char_class == "Ranger":
@@ -444,6 +490,9 @@ def char_creation():
             char_sub_class = "Drakewarden"
         else:
             print("Invalid Sub-Class")
+            print("Restarting Character editor")
+            time.sleep(0.5)
+            print("")
             return char_creation()
 
     if char_class == "Rogue":
@@ -471,6 +520,9 @@ def char_creation():
             char_sub_class = "Soulknife"
         else:
             print("Invalid Sub-Class")
+            print("Restarting Character editor")
+            time.sleep(0.5)
+            print("")
             return char_creation()
 
     if char_class == "Warlock":
@@ -496,6 +548,9 @@ def char_creation():
             char_sub_class = "The Undead"
         else:
             print("Invalid Sub-Class")
+            print("Restarting Character editor")
+            time.sleep(0.5)
+            print("")
             return char_creation()
 
     if char_class == "Wizard":
@@ -531,6 +586,9 @@ def char_creation():
             char_sub_class = "Order of Scribes"
         else:
             print("Invalid Sub-Class")
+            print("Restarting Character editor")
+            time.sleep(0.5)
+            print("")
             return char_creation()
 
     if char_class == "Artificer":
@@ -548,6 +606,9 @@ def char_creation():
             char_sub_class = "Battle Smith"
         else:
             print("Invalid Sub-Class")
+            print("Restarting Character editor")
+            time.sleep(0.5)
+            print("")
             return char_creation()
 
     return char_name, char_Gender, char_age, char_race, char_sub_race, char_class, char_sub_class
